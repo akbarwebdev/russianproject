@@ -129,7 +129,6 @@ body {
   line-height: 27px;
   text-align: center;
   max-width: 734px;
-
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -165,7 +164,6 @@ body {
 .about__h4 {
   color: var(--accent-color);
   font-size: 72px;
-  font-family: "Oswald", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -173,13 +171,27 @@ body {
 .about__h5 {
   color: #000;
   font-size: 36px;
-  font-family: "Oswald", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
 .about__p {
   color: var(--gray-color);
   font-size: 18px;
-  font-family: "Oswald", sans-serif;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    position: relative;
+  }
+  .about__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
 }
