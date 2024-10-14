@@ -8,12 +8,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.css"
-      media="screen,projection"
-    />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -39,9 +34,6 @@
         >
       </li>
     </ul>
-    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"
-      ><i class="material-icons">menu</i></a
-    > -->
 
     <header class="header">
       <div class="container">
@@ -122,6 +114,26 @@
       </div>
     </secton>
 
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>
+          Далеко-далеко за словесными горами, в стране гласных и согласных живут
+          рыбные тексты. Использовало проектах скатился возвращайся силуэт
+          предложения что, она алфавит то строчка текст переулка рыбного эта
+          домах страна все большого сих ее безорфографичный текстов которой
+          послушавшись. Ipsum взобравшись грамматики своего, инициал свое все
+          города составитель за его семь свою точках своих имени это образ даль
+          снова океана если вершину. Даже текстов, великий маленький всеми свой
+          злых своих он коварных. Ведущими родного, злых осталось прямо речью он
+          пояс, жизни по всей решила щеке путь имени необходимыми толку оксмокс
+          запятых большого инициал знаках над пунктуация составитель вдали
+          пустился, безопасную даль заголовок! Океана, агентство города?
+        </p>
+      </div>
+    </div>
+
     <section class="request">
       <div class="container">
         <div class="request__flex">
@@ -132,10 +144,10 @@
             </h5>
           </div>
           <div class="request__flex-right">
-            <button class="request__btn">
+            <a class="request__btn modal-trigger" href="#modal1">
               <img src="/img/.svg" alt="Envelope" class="request__icon" />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -201,56 +213,56 @@
       <div class="portfolio__grid">
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
         </div>
         <div class="portfolio__grid-item">
           <img
-            class="portfolio__img"
+            class="portfolio__img materialboxed"
             src="/img/portfolio item.jpg"
             alt="Portfolio Item"
           />
@@ -403,10 +415,10 @@
             <h5 class="request__h5">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</h5>
           </div>
           <div class="request__flex-right">
-            <button class="request__btn">
+            <a class="request__btn modal-trigger" href="#modal1">
               <img src="/img/.svg" alt="Envelope" class="request__icon" />
               Ваш запрос
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -2608,12 +2608,6 @@ ul:not(.browser-default) > li {
   list-style-type: none;
 }
 
-a {
-  color: #039be5;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
 .valign-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9313,3 +9307,5 @@ input[type="range"]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+/* Модальное окно */
